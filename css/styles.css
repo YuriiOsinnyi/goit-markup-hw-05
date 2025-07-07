@@ -594,6 +594,7 @@ button {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 9999;
+  padding-bottom: 24px
 }
 
 .backdrop:not(.is-open) .modal {
@@ -634,13 +635,6 @@ button {
   color: #8e8f99;
 }
 
-.privacy-text {
-  line-height: 1.33333;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #4d5ae5;
-}
-
 .btn-modal {
   border-radius: 4px;
   padding: 16px 32px;
@@ -655,4 +649,85 @@ button {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.container-input-name,
+.container-input-phone,
+.container-input-email {
+  position: relative;
+}
+
+.icon-name,
+.icon-phone,
+.icon-email {
+  position: absolute;
+  top: 14px;
+  left: 19px;
+}
+
+.form-input-name,
+.form-input-phone,
+.form-input-email {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 38px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+textarea {
+  resize: none;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 100%;
+  font-family: inherit;
+  line-height: inherit;
+  padding: 8px 16px;
+}
+
+.input-grup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin: 0 24px 16px 24px;
+}
+
+.container-checkbox {
+  position: relative;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.castom-checkbox {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  overflow: hidden;
+  border-radius: 0.05em;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
 }
