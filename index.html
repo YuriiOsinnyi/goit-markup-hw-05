@@ -60,7 +60,9 @@
       <section class="hero-section" id="hero-baner">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- advantages section 1 -->
@@ -493,9 +495,9 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="modal-btn-x" type="button">
+        <button class="modal-btn-x" type="button" data-modal-close>
           <svg class=".model-icon-x" width="8" height="8">
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
