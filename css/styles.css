@@ -630,19 +630,16 @@ button {
 
 }
 
-.modal-btn-x:hover,
-.modal-btn-x:focus {
 
-  background-color: #404bbf;
-  border: none;
-}
 
-.model-icon-x {
+.modal-btn-x {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn-x:hover,
 .modal-btn-x:focus {
+  background-color: #404bbf;
+  border: none;
   fill: #fff;
 }
 
@@ -678,7 +675,7 @@ button {
   padding-left: 38px;
   background-color: transparent;
   outline: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover,
