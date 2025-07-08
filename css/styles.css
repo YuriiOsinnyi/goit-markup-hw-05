@@ -715,8 +715,6 @@ button {
 
 }
 
-
-
 .form-input:hover,
 .form-input:focus {
   border-color: #4d5ae5;
@@ -741,24 +739,6 @@ button {
 .icon:hover,
 .icon:focus {
   fill: #4d5ae5;
-}
-
-
-
-.form-input-comment {
-  resize: none;
-  color: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  width: 100%;
-  height: 120px;
-  font-size: 12px;
-  padding: 8px 16px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  background-color: transparent;
-  outline: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-checkbox {
@@ -792,7 +772,6 @@ button {
 
 .btn-modal {
   border-radius: 4px;
-
   min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
