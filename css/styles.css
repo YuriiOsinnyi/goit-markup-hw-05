@@ -647,7 +647,9 @@ button {
 
 /* form */
 
-.container-name {
+.container-name,
+.container-phone,
+.container-email {
   margin-bottom: 8px;
 }
 
