@@ -647,9 +647,7 @@ button {
 
 /* form */
 
-.form-group-name,
-.form-group-phone,
-.form-group-email {
+.form-group {
   margin-bottom: 8px;
 }
 
@@ -689,9 +687,7 @@ button {
   margin-bottom: 4px;
 }
 
-.container-input-name,
-.container-input-phone,
-.container-input-email {
+.container-input {
   position: relative;
 }
 
@@ -721,9 +717,7 @@ button {
 }
 
 
-.icon-name,
-.icon-phone,
-.icon-email {
+.icon {
   position: absolute;
   top: 50%;
   left: 16px;
