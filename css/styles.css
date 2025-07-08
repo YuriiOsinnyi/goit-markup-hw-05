@@ -647,9 +647,9 @@ button {
 
 /* form */
 
-.container-name,
-.container-phone,
-.container-email {
+.form-group-name,
+.form-group-phone,
+.form-group-email {
   margin-bottom: 8px;
 }
 
@@ -759,7 +759,7 @@ button {
   margin-right: 8px;
 }
 
-.visually-hidden:checked+.form-label.option .castom-checkbox {
+.visually-hidden:checked+.form-label.option .custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
